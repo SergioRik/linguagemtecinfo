@@ -1,0 +1,60 @@
+<script type="text/javascript">
+	
+  var num1 = parseInt(prompt('Digite um numero:'));
+  var num2 = parseInt(prompt('Digite mais um  numero:'));
+  var opcao = parseInt(prompt('escolha operação matematica: 1=soma, 2=subtração, 3=divisão, 4 multiplicão'))
+  
+
+  function somanum(num1,num2) {
+  alert("A Soma dos dois numeros e :" + " " + (num1+num2));
+
+  
+  }
+   
+    function diminuinum(num1,num2) {
+  alert("A diferença entre  dos dois numeros e :" + " " + (num1-num2));
+
+  
+  }
+   
+    function divnum(num1,num2) {
+  alert("O resultado da divisão e :" + " " + (num1/num2));
+
+  
+  }
+
+    function mulnum(num1,num2) {
+        
+        alert("A resultadoda multiplicação dos dois numeros e :" + " " + (num1*num2));
+
+ }
+  
+
+  
+    if (opcao==1) {
+        somanum(num1,num2);
+
+    } else {
+        if (opcao==2) {
+            diminuinum(num1,num2);
+
+        } else {
+            if (opcao==3) { 
+             divnum(num1,num2);
+
+
+             } else {
+                if (opcao==4) {
+                    mulnum(num1,num2);
+                } else {
+                    alert("Opção invalida!!!!!!")
+                }
+             }
+        }
+    }
+ //somanum(num1,num2 +'<br>');// inclementa uma quebra de linha na função.
+ //mulnum(num1,num2);
+  //divnum(num1,num2);
+ //diminuinum(num1,num2);
+
+</script>
